@@ -21,7 +21,7 @@ abstract type Operator end
 This module contains function traits as a subtype of [`Operator`](@ref).
 """
 module Trait
-import YAAD: Operator
+import PAAD: Operator
 
 """
     Method{FT} <: Operator
@@ -177,7 +177,7 @@ Returns the keyword arguements of the call in `node`.
 function kwargs end
 
 """
-    operator(node) -> YAAD.Operator
+    operator(node) -> PAAD.Operator
 
 Returns the operator called in this node.
 """
@@ -359,6 +359,6 @@ gradient(fn, grad, output, args...; kwargs...) =
 This is just a alias for constructing a `CachedNode`. But notice this function
 is used for register a node in `tape` in the global tape version implementation:
 
-https://github.com/Roger-luo/YAAD.jl/tree/tape
+https://github.com/ucalyptus-plus/PAAD.jl/tree/tape
 """
 register(f, args...; kwargs...) = CachedNode(f, args...; kwargs...)
