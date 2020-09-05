@@ -1,7 +1,7 @@
 name = "PAAD"
 uuid = "f664b54e-d16c-11e8-3987-f3e95b1ae6e1"
 authors = ["Sayantan Das <sdas.codes@gmail.com>"]
-version = "0.2.0-DEV"
+version = "0.0.1-DEV"
 
 [deps]
 Cassette = "7057c7e9-c182-5462-911a-8362d720325c"
