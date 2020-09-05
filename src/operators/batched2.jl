@@ -5,7 +5,7 @@ Batched operation in Julia.
 
 This module wraps some useful batched operation with a plain
 for-loop on CPU. All the functions in this module are defined
-with gradients in YAAD.
+with gradients in PAAD.
 """
 module Batched
 import LinearAlgebra
