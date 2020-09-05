@@ -1,4 +1,4 @@
-using Test, YAAD, YAAD.TestUtils
+using Test, PAAD, PAAD.TestUtils
 using LinearAlgebra
 
 @testset "linalg.jl" begin
