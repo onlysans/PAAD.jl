@@ -1,4 +1,4 @@
-using Test, YAAD, YAAD.TestUtils
+using Test, PAAD, PAAD.TestUtils
 using DiffRules, SpecialFunctions, NaNMath
 
 @testset "broadcast math.jl" begin
