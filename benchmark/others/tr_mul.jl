@@ -9,7 +9,7 @@ Zygote.@grad Base.:(*)(lhs::Matrix, rhs::Matrix) = gemm(lhs, rhs), grad -> (grad
 
 function bench_tr_mul_paad(x1, x2)
     z = tr(x1 * x2)
-    YAAD.backward(z)
+    PAAD.backward(z)
     x1.grad, x2.grad
 end
 
