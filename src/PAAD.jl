@@ -1,4 +1,4 @@
-module YAAD
+module PAAD
 
 using DiffRules
 
