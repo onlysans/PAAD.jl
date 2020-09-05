@@ -1,19 +1,19 @@
-# Yet Another Automatic Differentiation
+# Personally Annoying Automatic Differentiation
 
 
 ```@autodocs
-Modules = [YAAD]
+Modules = [PAAD]
 Order = [:function, :type, :module]
 ```
 
 ## Batched Operations
 
 ```@autodocs
-Modules = [YAAD.Batched]
+Modules = [PAAD.Batched]
 ```
 
 ## Operator Traits
 
 ```@autodocs
-Modules = [YAAD.Trait]
+Modules = [PAAD.Trait]
 ```
