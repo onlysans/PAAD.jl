@@ -1,6 +1,6 @@
 using BenchmarkTools, AutoGrad
 
-function bench_tr_mul_yaad(x1, x2)
+function bench_tr_mul_paad(x1, x2)
     z = tr(x1 * x2)
     backward(z)
     x1.grad, x2.grad
@@ -14,7 +14,7 @@ end
 x = Variable(rand(30, 30))
 y = Variable(rand(30, 30))
 
-@benchmark bench_tr_mul_yaad(x, y)
+@benchmark bench_tr_mul_paad(x, y)
 
 x = Param(rand(30, 30))
 y = Param(rand(30, 30))
