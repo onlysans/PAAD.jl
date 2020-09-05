@@ -1,4 +1,4 @@
-using Test, YAAD, YAAD.TestUtils
+using Test, PAAD, PAAD.TestUtils
 
 @testset "index and slice" begin
     @test gradcheck(x->x[:, 2, :, 1], Variable(rand(2, 2, 2, 3)))
